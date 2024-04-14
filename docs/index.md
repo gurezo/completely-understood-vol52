@@ -146,6 +146,8 @@ $ completely-understood-vol52 git:(main)
 ### Angular プロジェクトのユニットテスト実行
 
 - 下記コマンドを実行します。
+- テストは、[Karma](https://karma-runner.github.io/latest/index.html) と [Jasmine](https://jasmine.github.io/) を使います。
+- ※デフォルトテストツール
 
 ```sh
 $ completely-understood-vol52 git:(main) ✗ npx ng test
@@ -164,11 +166,9 @@ $ completely-understood-vol52 git:(main)
 
 ![ng test](images/ng.test.png)
 
-### Angular プロジェクトのユニットテスト実行
+### Angular プロジェクトの E2E テスト実行
 
 - 下記コマンドを実行すると下記メッセージが聞かれます。
-- テストは、[Karma](https://karma-runner.github.io/latest/index.html) と [Jasmine](https://jasmine.github.io/) を使います。
-- ※デフォルトテストツール
 
 #### Google のプライバシーポリシー の確認
 
@@ -217,7 +217,7 @@ Would you like to add a package with "e2e" capabilities now? Cypress
 ✔ Package information loaded.
 
 The package @cypress/schematic@2.5.1 will be installed and executed.
-# Y を選択します。
+# Yes を選択します。
 Would you like to proceed? Yes
 
 
