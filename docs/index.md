@@ -6,7 +6,7 @@
 ### Things necessary / 必要なもの
 
 - （ノート）パソコン
-  - OS は、問いません。
+  - OS： Windows, macOS, Linux
 - フロントエンド開発に必要な環境
   - node v18.x 以上推奨
   - npm v10.x 以上推奨
