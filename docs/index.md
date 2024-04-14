@@ -1,7 +1,16 @@
-## Overview
+## Overview / 概要
 
 - this repository is hands on & sample for Engineers' “Completely Understood” Talk #52
 - このリポジトリは、エンジニア達の「完全に理解した」Talk #52 のハンズオン＆サンプルです。
+
+### Things necessary / 必要なもの
+
+- （ノート）パソコン
+  - OS は、問いません。
+- フロントエンド開発に必要な環境
+  - node v18.x 以上推奨
+  - npm v10.x 以上推奨
+  - [Angular CLI](https://cli.angular.io/) v16.x 以上推奨
 
 ### サンプル用ディレクトリ作成
 
