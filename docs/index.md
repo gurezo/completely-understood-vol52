@@ -32,7 +32,7 @@ $ cd completely-understood-vol52
 
 ```sh
 # --no-save オプションを付けることでこのディレクトリ配下にローカルインストールされます。
-$ completely-understood-vol52 npm i @angular/cli@v17.x --no-save
+$　npm i @angular/cli@v17.x --no-save
 
 added 4 packages, changed 16 packages, and audited 237 packages in 9s
 
@@ -49,7 +49,7 @@ $ completely-understood-vol52
 
 ```sh
 # --directory オプションを付けることでこのディレクトリ配下にプロジェクトを作成します。
-$ completely-understood-vol52 npx ng new completely-understood-vol52 --directory=./
+$　npx ng new completely-understood-vol52 --directory=./
 
 # スタイルファイルをどの形式か選択できます。（今回は、CSS を選択しました。
 ? Which stylesheet format would you like to use? (Use arrow keys)
@@ -120,8 +120,9 @@ completely-understood-vol52 # angular プロジェクトルートディレクト
 - 下記コマンドを実行します。
 
 ```sh
+# completely-understood-vol52 直下のディレクトリで、実行する想定です。
 # --open オプションを付けることで、デフォルトブラウザでローカル起動します。
-$ completely-understood-vol52 git:(main) ✗ npx ng serve --open
+$ npx ng serve --open
 Initial chunk files | Names         |  Raw size
 polyfills.js        | polyfills     |  83.60 kB |
 main.js             | main          |  21.94 kB |
@@ -137,7 +138,7 @@ Watch mode enabled. Watching for file changes...
 
 
 # ctrl+c で、終了します。
-$ completely-understood-vol52 git:(main)
+$
 ```
 
 ![ng serve](images/ng.serve.png)
@@ -149,7 +150,7 @@ $ completely-understood-vol52 git:(main)
 - ※デフォルトテストツール
 
 ```sh
-$ completely-understood-vol52 git:(main) ✗ npx ng test
+$ npx ng test
 ✔ Browser application bundle generation complete.
 14 04 2024 17:49:27.053:WARN [karma]: No captured browser, open http://localhost:9876/
 14 04 2024 17:49:27.059:INFO [karma-server]: Karma v6.4.3 server started at http://localhost:9876/
@@ -160,7 +161,7 @@ Chrome 123.0.0.0 (Mac OS 10.15.7): Executed 3 of 3 SUCCESS (0.047 secs / 0.044 s
 TOTAL: 3 SUCCESS
 
 # ctrl+c で、終了します。
-$ completely-understood-vol52 git:(main)
+$
 ```
 
 ![ng test](images/ng.test.png)
@@ -172,7 +173,7 @@ $ completely-understood-vol52 git:(main)
 #### Google のプライバシーポリシー の確認
 
 ```sh
-$ completely-understood-vol52 git:(main) npx ng e2e
+$ npx ng e2e
 
 # ? このプロジェクトに関する仮名の使用状況データを Angular チームと共有しますか?
 # Google のプライバシー ポリシー (https://policies.google.com/privacy) に基づいて Google に問い合わせます。 多くのための
@@ -235,14 +236,14 @@ CREATE cypress/support/component.ts (1123 bytes)
 UPDATE package.json (1210 bytes)
 UPDATE angular.json (4211 bytes)
 ✔ Packages installed successfully.
-$ completely-understood-vol52 git:(main)
+$
 ```
 
 #### E2E テストの実行
 
 ```sh
 
-$ completely-understood-vol52 git:(main) ✗ npx ng e2e
+$ npx ng e2e
 Passing watch mode to DevServer - watch mode is true
 Initial chunk files | Names         |  Raw size
 polyfills.js        | polyfills     |  83.60 kB |
@@ -263,7 +264,7 @@ Missing baseUrl in compilerOptions. tsconfig-paths will be skipped
 2024-04-14 18:02:15.299 Cypress[70068:29569977] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
 
 # ctrl+c で、終了します。
-$ completely-understood-vol52 git:(main)
+$
 ```
 
 ![ng 2e2](images/ng.e2e.png)
