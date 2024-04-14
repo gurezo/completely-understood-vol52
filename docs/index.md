@@ -85,7 +85,7 @@ CREATE src/styles.css (80 bytes)
 CREATE src/assets/.gitkeep (0 bytes)
 ⠏ Installing packages (npm)...
 
-$ completely-understood-vol52
+$
 ```
 
 ### Angular プロジェクトの構造
