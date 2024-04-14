@@ -10,7 +10,6 @@
 - フロントエンド開発に必要な環境
   - node v18.x 以上推奨
   - npm v10.x 以上推奨
-  - [Angular CLI](https://cli.angular.io/) v17.x 以上推奨
 
 ### サンプル用ディレクトリ作成
 
