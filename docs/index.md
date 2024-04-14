@@ -89,6 +89,8 @@ $ completely-understood-vol52
 
 ### Angular プロジェクトの構造
 
+- プロジェクト作成に成功すると下記ディレクトリ構造になります。
+
 ```sh
 completely-understood-vol52 # angular プロジェクトルートディレクトリ
 ├── README.md
