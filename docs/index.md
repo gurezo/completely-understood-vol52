@@ -31,6 +31,7 @@ $ cd completely-understood-vol52
 - 下記コマンドを実行します。
 
 ```sh
+# completely-understood-vol52 直下のディレクトリで、実行する想定です。
 # --no-save オプションを付けることでこのディレクトリ配下にローカルインストールされます。
 $　npm i @angular/cli@v17.x --no-save
 
@@ -48,6 +49,7 @@ $ completely-understood-vol52
 - 下記コマンドを実行します。
 
 ```sh
+# completely-understood-vol52 直下のディレクトリで、実行する想定です。
 # --directory オプションを付けることでこのディレクトリ配下にプロジェクトを作成します。
 $　npx ng new completely-understood-vol52 --directory=./
 
@@ -150,6 +152,7 @@ $
 - ※デフォルトテストツール
 
 ```sh
+# completely-understood-vol52 直下のディレクトリで、実行する想定です。
 $ npx ng test
 ✔ Browser application bundle generation complete.
 14 04 2024 17:49:27.053:WARN [karma]: No captured browser, open http://localhost:9876/
@@ -173,6 +176,7 @@ $
 #### Google のプライバシーポリシー の確認
 
 ```sh
+# completely-understood-vol52 直下のディレクトリで、実行する想定です。
 $ npx ng e2e
 
 # ? このプロジェクトに関する仮名の使用状況データを Angular チームと共有しますか?
@@ -239,10 +243,11 @@ UPDATE angular.json (4211 bytes)
 $
 ```
 
-#### E2E テストの実行
+#### E2E テストの実行（Cypress の E2E コード）
 
 ```sh
-
+# completely-understood-vol52 直下のディレクトリで、実行する想定です。
+# Cypress のE2E コードで、実行されます。
 $ npx ng e2e
 Passing watch mode to DevServer - watch mode is true
 Initial chunk files | Names         |  Raw size
