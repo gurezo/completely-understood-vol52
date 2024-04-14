@@ -41,7 +41,7 @@ added 4 packages, changed 16 packages, and audited 237 packages in 9s
   run `npm fund` for details
 
 found 0 vulnerabilities
-$ completely-understood-vol52
+$
 ```
 
 ### Angular プロジェクトの作成
