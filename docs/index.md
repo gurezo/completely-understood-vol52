@@ -1,7 +1,7 @@
 ## Overview / 概要
 
 - this repository is hands on & sample for Engineers' “Completely Understood” Talk #52
-- このリポジトリは、エンジニア達の「完全に理解した」Talk #52 のハンズオン＆サンプルです。
+- この[リポジトリ](https://github.com/gurezo/completely-understood-vol52)は、エンジニア達の「完全に理解した」Talk #52 のハンズオン＆サンプルです。
 
 ### Things necessary / 必要なもの
 
