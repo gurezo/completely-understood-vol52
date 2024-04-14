@@ -78,6 +78,33 @@ CREATE src/assets/.gitkeep (0 bytes)
 $ completely-understood-vol52
 ```
 
+### Angular プロジェクトの構造
+
+```sh
+completely-understood-vol52 # angular プロジェクトルートディレクトリ
+├── README.md
+├── angular.json # angular プロジェクト情報
+├── package-lock.json
+├── package.json
+├── src
+│   ├── app
+│   │   ├── app.component.css # ブラウザ表示用スタイルファイル
+│   │   ├── app.component.html # ブラウザ表示用ファイル
+│   │   ├── app.component.spec.ts # ユニットテストファイル
+│   │   ├── app.component.ts # 画面制御ファイル
+│   │   ├── app.config.ts # Angular アプリケーション設定ファイル
+│   │   └── app.routes.ts # Angular アプリケーション画面ナビゲーションファイル
+│   ├── assets
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── main.ts
+│   └── styles.css
+├── tree.txt
+├── tsconfig.app.json
+├── tsconfig.json
+└── tsconfig.spec.json
+```
+
 ### Angular プロジェクトのローカル起動
 
 - 下記コマンドを実行します。
@@ -129,6 +156,8 @@ $ completely-understood-vol52 git:(main)
 ### Angular プロジェクトのユニットテスト実行
 
 - 下記コマンドを実行すると下記メッセージが聞かれます。
+- テストは、[Karma](https://karma-runner.github.io/latest/index.html) と [Jasmine](https://jasmine.github.io/) を使います。
+- ※デフォルトテストツール
 
 #### Google のプライバシーポリシー の確認
 
