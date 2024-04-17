@@ -32,7 +32,7 @@ $ cd completely-understood-vol52
 
 ```sh
 # completely-understood-vol52 直下のディレクトリで、実行する想定です。
-# --no-save オプションを付けることでこのディレクトリ配下にローカルインストールされます。
+# --no-save オプションを付けることで依存関係を package.json に書き込まないでインストールされます。
 $　npm i @angular/cli@v17.x --no-save
 
 added 4 packages, changed 16 packages, and audited 237 packages in 9s
