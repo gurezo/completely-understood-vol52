@@ -33,7 +33,7 @@ $ cd completely-understood-vol52
 ```sh
 # completely-understood-vol52 直下のディレクトリで、実行する想定です。
 # --no-save オプションを付けることで依存関係を package.json に書き込まないでインストールされます。
-$　npm i @angular/cli@v17.x --no-save
+$　npm i @angular/cli@v18.x --no-save
 
 added 4 packages, changed 16 packages, and audited 237 packages in 9s
 
@@ -54,19 +54,13 @@ $
 $　npx ng new completely-understood-vol52 --directory=./
 
 # スタイルファイルをどの形式か選択できます。（今回は、CSS を選択しました。
-? Which stylesheet format would you like to use? (Use arrow keys)
-❯ CSS             [ https://developer.mozilla.org/docs/Web/CSS                     ]
-  Sass (SCSS)     [ https://sass-lang.com/documentation/syntax#scss                ]
-  Sass (Indented) [ https://sass-lang.com/documentation/syntax#the-indented-syntax ]
-  Less            [ http://lesscss.org                                             ]
-
+? Which stylesheet format would you like to use? CSS             [ https://developer.mozilla.org/docs/Web/CSS                     ]
 ? Do you want to enable Server-Side Rendering (SSR) and Static Site Generation (SSG/Prerendering)? No
-CREATE README.md (1079 bytes)
-CREATE .editorconfig (274 bytes)
-CREATE .gitignore (548 bytes)
-CREATE angular.json (2697 bytes)
+CREATE README.md (1086 bytes)
+CREATE .gitignore (587 bytes)
+CREATE angular.json (2674 bytes)
 CREATE package.json (1058 bytes)
-CREATE tsconfig.json (857 bytes)
+CREATE tsconfig.json (860 bytes)
 CREATE .vscode/extensions.json (130 bytes)
 CREATE .vscode/launch.json (470 bytes)
 CREATE .vscode/tasks.json (938 bytes)
@@ -75,15 +69,15 @@ CREATE src/app/app.component.html (19903 bytes)
 CREATE src/app/app.component.spec.ts (979 bytes)
 CREATE src/app/app.component.ts (323 bytes)
 CREATE src/main.ts (250 bytes)
-CREATE src/app/app.config.ts (227 bytes)
+CREATE src/app/app.config.ts (310 bytes)
 CREATE src/app/app.routes.ts (77 bytes)
 CREATE tsconfig.app.json (263 bytes)
 CREATE tsconfig.spec.json (273 bytes)
-CREATE src/favicon.ico (15086 bytes)
+CREATE public/favicon.ico (15086 bytes)
 CREATE src/index.html (311 bytes)
 CREATE src/styles.css (80 bytes)
-CREATE src/assets/.gitkeep (0 bytes)
-⠏ Installing packages (npm)...
+✔ Packages installed successfully.
+    Directory is already under version control. Skipping initialization of git.
 
 $
 ```
@@ -251,22 +245,29 @@ $
 $ npx ng e2e
 Passing watch mode to DevServer - watch mode is true
 Initial chunk files | Names         |  Raw size
-polyfills.js        | polyfills     |  83.60 kB |
-main.js             | main          |  21.94 kB |
+polyfills.js        | polyfills     |  88.10 kB |
+main.js             | main          |  22.59 kB |
 styles.css          | styles        |  95 bytes |
 
-                    | Initial total | 105.63 kB
+                    | Initial total | 110.78 kB
 
-Application bundle generation complete. [1.038 seconds]
+Application bundle generation complete. [0.949 seconds]
 
 Watch mode enabled. Watching for file changes...
-  $ Local:   http://localhost:4200/
-  $ press h + enter to show help
+NOTE: Raw file sizes do not reflect development server per-request transformations.
+Re-optimizing dependencies because lockfile has changed
+  ➜  Local:   http://localhost:4200/
+  ➜  press h + enter to show help
+It looks like this is your first time using Cypress: 13.10.0
 
-DevTools listening on ws://127.0.0.1:50358/devtools/browser/15192f20-eaf4-4499-818a-62362f5ea7ed
-GraphQL server is running at http://localhost:50359/__launchpad/graphql
+✔  Verified Cypress! /Users/akihiko.kigure/Library/Caches/Cypress/13.10.0/Cypress.app
+
+Opening Cypress...
+
+DevTools listening on ws://127.0.0.1:63240/devtools/browser/9996a624-490b-4720-8577-f5522c33f3ab
+GraphQL server is running at http://localhost:63241/__launchpad/graphql
 Missing baseUrl in compilerOptions. tsconfig-paths will be skipped
-2024-04-14 18:02:15.299 Cypress[70068:29569977] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+2024-05-28 23:46:37.313 Cypress[56751:10098037] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
 
 # ctrl+c で、終了します。
 $
